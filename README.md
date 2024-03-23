@@ -8,10 +8,15 @@
 Democracy Builders
 
 ## Idea
-Breif Idea in two three sentences 
+Digital voting system using block chain Technology:Secured ,trasparent and immutable voting.
 
 ## Features 
-1. 
+1. Live display of results and voting turnout.
+2. Geofencing to restrict usage based on location.
+3. Homographic voters keys.
+4. Two factor authentication
+5. Blocks background data access.
+6. Session timeout.
 
 ## Link to product walkthrough
 [link to video](Link Here)
@@ -19,13 +24,20 @@ Breif Idea in two three sentences
    
 ## Libraries used
 Library Name - Version
+1.Web3.js
+2.Solidity
+3.Metamask
+4.Truffle 
+5.next.js,Express.js
+6.Prisma
 
 
 ## How to configure
-Instructions for setting up project
+main branch conatins frontend and master branch contains backend
+run npm i for frontend and yarn for backend to install necesssary packages
 
 ## How to Run
-Instructions for running
+npm start for frontend. yarn start:dev for backend
 
-## How to contribute ? 
-Features to implement 
+## How to contribute ?
+1 step auth,  
