@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  democracy-db:
+    image: postgres:16
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: democracydb
+    networks:
+      - democracy
+
+networks:
+  democracy:

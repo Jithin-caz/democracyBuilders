@@ -1,0 +1,31 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Voter {
+  Voterid      String      @id @unique
+  name    String
+  age Int
+  constituency String
+  area String
+  hasVoted Boolean @default(false)
+}
+model Candidate {
+  id      Int      @id @default(autoincrement())
+  name    String
+  votes Int @default(0)
+  party String
+  constituency String
+  image String @default("https://i.pinimg.com/564x/ac/20/30/ac203069851f8799d85e271eee6da5c3.jpg")
+}
