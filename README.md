@@ -40,4 +40,4 @@ run npm i for frontend and yarn for backend to install necesssary packages
 npm start for frontend. yarn start:dev for backend
 
 ## How to contribute ?
-1 step auth,  
+3 step auth,  
