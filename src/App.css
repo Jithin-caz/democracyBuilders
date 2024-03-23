@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Capriola&family=Lilita+One&display=swap');
+.heading-hero
+{
+  color: #007bff;
+  font-family: Lilita One;
+}
+.form-conatiner
+{
+  height: 1rem;
+  overflow:hidden;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -26,6 +41,22 @@
 
 .login-button:hover {
   background-color: #0069d9;
+}
+.login-button2 {
+  background-color: white;
+  color:#007bff;
+  border: solid 2px #007bff;
+  font-size: 1.2rem;
+ 
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button2:hover {
+  background-color: #0069d9;
+  color: white;
 }
 
 
